@@ -35,9 +35,14 @@ nav {
 }
 
 img {
-   height:200px;
    background-color: green;
+   height:200px;
 }
+.img-container {
+   display:grid;
+   grid-template-columns: 1fr 3fr 1fr;
+}
+
 .projects {
    display:grid;
    place-items:center;
@@ -46,7 +51,14 @@ img {
 }
 
 div.project {
-   width:300px;
+   width:50vw;
    height:300px;
    background-color:red;
+}
+
+.prev-btn,
+.next-btn {
+   background: transparent;
+   border: none;
+   color:white;
 }

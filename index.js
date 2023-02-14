@@ -3,7 +3,7 @@ const projects = [
    {
       id: 1,
       name: "Project 1",
-      img: "./assets/dummy-200x200.png",
+      img: "#",
       tech: "Javascript, React, HTML, CSS",
       liveLink: "http://google.com",
       codeLink: "https://twitter.com"
